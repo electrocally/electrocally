@@ -18,6 +18,8 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           base: header
+          filename: core.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
@@ -32,7 +34,7 @@ jobs:
       - name: ⭐ Recently starred
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.stars.svg
+          filename: stars.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stars: yes
