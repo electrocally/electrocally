@@ -61,7 +61,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: topics.svg
-          token: THE_DOCS_SAID_I_DONT_NEED_ONE_BUT_IDK_BRUH
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 0
