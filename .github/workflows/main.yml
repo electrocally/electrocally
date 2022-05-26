@@ -38,14 +38,14 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 3
         
-      name: 📅 Half-year calendar
-      uses: lowlighter/metrics@latest
-      with:
-        filename: isocalendar.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: ""
-        plugin_isocalendar: yes
-        plugin_isocalendar_duration: half-year
+      - name: 📅 Half-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
 
       - name: 🦑 Achievements
         if: ${{ success() || failure() }}
