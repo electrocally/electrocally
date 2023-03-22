@@ -23,7 +23,7 @@
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="457.64412141331064" height="8" fill="#f1e05a"/>
                     <rect mask="url(#languages-bar)" x="457.64412141331064" y="0" width="1.9029930712537075" height="8" fill="#199f4b"/>
-                    <rect mask="url(#languages-bar)" x="459.54711448456436" y="0" width="0.2801034976912767" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.54711448456436" y="0" width="0.2801034976912767" height="8" fill="#844FBA"/>
                     <rect mask="url(#languages-bar)" x="459.8272179822556" y="0" width="0.1287156985343652" height="8" fill="#3572A5"/>
                     <rect mask="url(#languages-bar)" x="459.95593368078994" y="0" width="0.02456831267461382" height="8" fill="#89e051"/>
                     <rect mask="url(#languages-bar)" x="459.98050199346454" y="0" width="0.019498006535389828" height="8" fill="#701516"/>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#844FBA" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         HCL
                     </div>
